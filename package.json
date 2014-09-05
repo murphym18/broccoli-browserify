@@ -27,7 +27,7 @@
   "dependencies": {
     "broccoli-writer": "^0.1.1",
     "rsvp": "^3.0.6",
-    "browserify": "^3.31.2",
+    "browserify": "^5.10.0",
     "mkdirp": "^0.3.5"
   },
   "devDependencies": {
