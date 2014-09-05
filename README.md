@@ -21,16 +21,15 @@ tree = browserify(tree, options);
 
 ## API
 
-### browserify(tree, options) 
+### browserify(tree, options)
 
 * `tree`: A [broccoli tree](https://github.com/broccolijs/broccoli#plugin-api-specification) or a directory path as a string
 
 ####Options
- 
+
 * `entries` : (default `[]`) Array of files to be used as entry points
 * `outputFile`: (default `"./browserify.js"`) Output file
 * `browserify` : (default `{}`) Options passed to the [browserify constructor](https://github.com/substack/node-browserify#var-b--browserifyfiles-or-opts)
-* `bundle`:  (default `{}`) Options passed to [browserify bundle method](https://github.com/substack/node-browserify#bbundleopts-cb)
 * `require`: (default []) An array of file, option pairs
 passed to [browserify require
 method](https://github.com/substack/node-browserify#brequirefile-opts)
@@ -43,7 +42,7 @@ method](https://github.com/substack/node-browserify#brequirefile-opts)
 * Added require option to call browserify.require()
 * Improved Readme file
 
-### 0.0.1 
+### 0.0.1
 
 * Initial release
 
