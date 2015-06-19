@@ -1,4 +1,4 @@
-# brocolli-browserify
+# broccolify
 
 Use `require('modules')` in the browser with
 [browersify](https://https://github.com/substack/node-browserify)
@@ -7,14 +7,14 @@ and [broccoli](https://github.com/joliss/broccoli)
 ## Install
 
 ```
-npm install --save-dev broccoli-browserify
+npm install --save-dev broccolify
 ```
 
 
 ## Example
 
 ```js
-var browserify = require('broccoli-browserify');
+var browserify = require('broccolify');
 tree = browserify(tree, options);
 ```
 
