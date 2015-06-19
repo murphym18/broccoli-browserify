@@ -1,6 +1,6 @@
 {
   "name": "broccolify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Browserify plugin for Broccoli",
   "main": "lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gingerhendrix/broccoli-browserify"
+    "url": "https://github.com/snit-ram/broccoli-browserify"
   },
   "keywords": [
     "broccoli-plugin",
