@@ -1,6 +1,6 @@
 {
   "name": "broccolify",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Browserify plugin for Broccoli",
   "main": "lib/index.js",
   "scripts": {
